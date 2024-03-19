@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+body {
+    color: #081b29;
+    background-color: #081b29;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    width: 100%;
+    padding: 20px 10%;
+    background: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 30px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+
+}
+
+.navbar {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+
+.home {
+    height: 100vh;
+    background: url('assets/images/EAC6B393-468B-4DE6-B66F-7D8DF11D2245.jpeg');
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-content {
+    background: transparent;
+    max-width: 600px;
+
+}
+
+.home-content h1 {
+    color: #ededed;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.home-content h3 {
+    color: #00abf0;
+    font-size: 53px;
+    font-weight: 500;
+    color: #00abf0;
+}
+
+.home-content p {
+    color: white;
+    font-size: 18px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box {
+    display: flex;
+    background: transparent;
+    width: fit-content;
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #00abf0;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 10s;
+
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    z-index: -2;
+    transition: 5s;
+}
+
+.btn-box a:hover::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .5s;
+}
+.about-me h2 {
+    color: #00abf0;
+    font-size: 53px;
+    margin-top: 100px;
+    line-height: normal;
+    margin-left: 30px;
+
+}
+
+.about-me p {
+    color: greenyellow;
+    font-size: 28px;
+    margin-top: 55px;
+   
+    margin-right: 100px;
+    margin-left: 30px;
+}
+.about-me ol{
+    color: greenyellow;
+    font-size: 28px;
+    margin-top: 55px;
+    margin-right: 100px;
+    margin-left: 75px;
+   
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #b1abba;
+    color: #000;
+    background-color: yellowgreen;
+}
+.about-me img {
+    margin-left: 30px;
+}
+ 
